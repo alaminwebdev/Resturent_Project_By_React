@@ -9,7 +9,6 @@ import { Grid } from '@mui/material';
 
 
 const DishItem = (props) => {
-
     const [imgExist, setImgExist] = useState(true);
     //console.log(props);
     const loading = props.loading
